@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --font-principal: "Inter", sans-serif;
+    --tamanho1-da-font: 100;
+    --tamanho2-da-font: 200;
+    --tamanho3-da-font: 300;
+    --tamanho4-da-font: 400;
+    --tamanho5-da-font: 500;
+    --tamanho6-da-font: 600;
+    --tamanho7-da-font: 700;
+    --tamanho8-da-font: 800;
+    --tamanho9-da-font: 900;
+
+    --cor-principal: #0D1B2A;
+    --cor-secundaria: #000;
+    --cor-terciaria: #ffff;
+}
+
+body {
+    background-color: var(--cor-principal);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: var(--tamanho5-da-font);
+}
+
+.conteiner {
+    margin: 67px 0px 40px 200px;
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+}
+
+.dolar {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.principal {
+    margin: 67px 0px 0px 200px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.titulo-principal {
+    color: var(--cor-terciaria);
+    font-family: var(--font-principal);
+    font-weight: var(--tamanho9-da-font);
+    font-size: 36px;
+}
+
+.subtitulo-principal {
+    color: var(--cor-terciaria);
+    font-family: var(--font-principal);
+    font-weight: var(--tamanho9-da-font);
+    font-size: 32px;
+}
+
+.main {
+    margin: 0px 0px 0px 200px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.valor {
+    color: var(--cor-terciaria);
+}
+
+.resultado {
+    color: var(--cor-terciaria);
+}
+
+.numero-digitado {
+    width: 100px;
+    padding: 10px;
+}
